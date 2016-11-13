@@ -9,7 +9,6 @@ public class ThreadTrafficLight implements Runnable{
 		this.color = TrafficLightColor.RED;
 		this.stop = false;
 		this.colorChanged = false;
-
 		new Thread(this).start();
 	}
 
